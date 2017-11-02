@@ -1,0 +1,28 @@
+.std-padding {
+    padding: 10px;
+}
+
+.small-padding {
+    padding: 5px;
+}
+
+.std-margin-bottom {
+    margin-bottom: 5px;
+}
+
+.small-margin-right {
+    margin-right: 5px;
+}
+
+.std-horizontal-layout {
+    display: flex;
+    align-items: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}

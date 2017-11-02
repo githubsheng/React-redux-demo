@@ -1,0 +1,44 @@
+#iphone {
+    position: relative;
+}
+
+#iphone-image {
+    width: 300px;
+    margin: 50px auto 0 30px;
+    display: block;
+}
+
+#iphone-screen {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    width: 260px;
+    height: 460px;
+    overflow: scroll;
+}
+
+#iphone-screen::-webkit-scrollbar {
+    display: none;
+}
+
+#iphone-screen .question-container {
+    margin: 0 10px;
+    padding: 10px 0;
+    border: none;
+}
+
+#iphone-screen .question-container .question-text {
+    border-left-color: cornflowerblue;
+}
+
+.welcome-page, .end-page {
+    background-color: #f1f1f1;
+    margin: 5px 5px 20px 5px;
+    padding: 10px;
+}
+
+.red-title {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}

@@ -1,0 +1,51 @@
+.main-layout {
+    position: fixed;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+}
+
+.top {
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px darkgrey;
+}
+
+.left {
+    left: 0;
+    top: 50px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 6px darkgrey;
+    background-color: #e0e0e0;
+}
+
+.left::-webkit-scrollbar {
+    display: none;
+}
+
+.right {
+    right: 0;
+    top: 50px;
+    overflow-y: auto;
+}
+
+.preview-container {
+    max-width: 500px;
+}
+
+.config-container {
+    max-width: 500px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.config-container .no-question-selected {
+    text-align: center;
+    margin: 50px 0;
+}

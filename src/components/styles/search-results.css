@@ -1,0 +1,11 @@
+div.resultList {
+    float: right;
+}
+
+div.result {
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid darkgray;
+}
